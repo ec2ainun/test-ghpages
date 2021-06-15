@@ -1,4 +1,4 @@
-name: GitHub Pages Deploy
+name: GitHub Pages Trigger
 on: [push]
 jobs:
   Explore-GitHub-Actions:
