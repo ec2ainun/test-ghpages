@@ -1,5 +1,7 @@
 name: GitHub Pages Trigger
-on: [push]
+on:
+  push:
+    paths: ["docs-build/**"]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
